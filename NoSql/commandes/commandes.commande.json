@@ -1,0 +1,46 @@
+[{
+  "_id": 1,
+  "date": "23-02-2022",
+  "total": 150,
+  "Client": [
+    {
+      "_id": 1,
+      "nom": "Zaid",
+      "tel": "418898562",
+      "articles": [
+        {
+          "_id": 1,
+          "description": "art123",
+          "quantite_commandee": 3,
+          "prix_unitaire": 50
+        }
+      ],
+      "livraison": [
+        {
+          "_id": 5,
+          "date": "25-02-2023"
+        }
+      ],
+      "detailivraison": [
+        {
+          "_id": 12
+        }
+      ],
+      "article": [
+        {
+          "_id": 14,
+          "description": "art123",
+          "quantite_disponible": 2,
+          "prix_unitaire": 30
+        }
+      ],
+      "Facture": [
+        {
+          "_id": 15,
+          "date": "23-02-2023",
+          "total": 150
+        }
+      ]
+    }
+  ]
+}]
